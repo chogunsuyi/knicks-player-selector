@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+        <title>Background Picker</title>
+
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        
+        <section class="top-section">
+            <section class="pic-section">
+                <h3 id="player-number">#55</h3>
+                <img src="https://www.basketball-reference.com/req/202106291/images/headshots/harteis01.jpg" alt="Isaiah Hartenstein" class="picture" id="player-picture">
+            </section>
+
+            <section class="player-bio clearfix">
+                <h1 id="player-name">ISAIAH HARTENSTEIN</h1>
+                <div class="player-bio-bottom">
+                    <div class="player-bio-div">
+                        <span>Height</span>
+                        <span>Weight</span>
+                        <span>Age</span>
+                    </div>
+                    <div class="bio-info">
+                        <span id="player-height">7'0"</span>
+                        <span id="player-weight">250 lbs</span>
+                        <span id="player-age">24</span>
+                    </div>
+                    <div class="player-bio-div">
+                        <span>Contract</span>
+                    </div>
+                    <div class="player-bio-div">
+                        <span id="player-contract">2 YRS | $16.00M</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="overall">
+                <h1 id="player-overall">76</h1>
+            </section>
+        </section>
+
+        <section class="bottom-section">
+            <section>
+                <span class="name">NAME</span>
+                <span class="other-data abbreviated-stat" id='position-short'>POS<span class="hover-content" id="position-full">Position</span></span>
+                <span class="other-data abbreviated-stat" id='age-short'>AGE<span class="hover-content" id="age-full">Age</span></span>
+                <span class="other-data abbreviated-stat" id='games-short'>G<span class="hover-content" id="games-full">Games Played</span></span>
+                <span class="other-data abbreviated-stat" id='games-started-short'>GS<span class="hover-content" id="games-started-full">Games Started</span></span>
+                <span class="other-data abbreviated-stat" id='fg-percent-short'>FG%<span class="hover-content" id="fg-percent-full">Field Goal Percentage</span></span>
+                <span class="other-data abbreviated-stat" id='three-pt-percent-short'>3P%<span class="hover-content" id="three-pt-percent-full">3-Point Percentage</span></span>
+                <span class="other-data abbreviated-stat" id='ft-percent-short'>FT%<span class="hover-content" id="ft-percent-full">Free Throw Percentage</span></span>
+                <span class="other-data abbreviated-stat" id='points-short'>PTS<span class="hover-content" id="points-full">Points Per Game</span></span>
+                <span class="other-data abbreviated-stat" id='rebounds-short'>TRB<span class="hover-content" id="rebounds-full">Rebounds Per Game</span></span>
+                <span class="other-data abbreviated-stat" id='assists-short'>AST<span class="hover-content" id="assists-full">Assists  Per Game</span></span>
+                <span class="other-data abbreviated-stat" id='steals-short'>STL<span class="hover-content" id="steals-full">Steals  Per Game</span></span>
+                <span class="other-data abbreviated-stat" id='blocks-short'>BLK<span class="hover-content" id="blocks-full">Blocks Per Game</span></span>
+                <span class="other-data abbreviated-stat" id='turnovers-short'>TOV<span class="hover-content last-stat" id="turnovers-full">Turnovers Per Game</span></span>
+            </section>
+
+            <section>
+                <article id="JR">
+                    <span class="name">J. Randle</span>
+                    <span class="other-data">PF</span>
+                    <span class="other-data">28</span>
+                    <span class="other-data">77</span>
+                    <span class="other-data">77</span>
+                    <span class="other-data">45.9</span>
+                    <span class="other-data">34.3</span>
+                    <span class="other-data">75.6</span>
+                    <span class="other-data">25.1</span>
+                    <span class="other-data">10.0</span>
+                    <span class="other-data">4.1</span>
+                    <span class="other-data">0.6</span>
+                    <span class="other-data">0.3</span>
+                    <span class="other-data">2.8</span>
+                </article>
+                <article  id="JB" class="even">
+                    <span class="name">J. Brunson</span>
+                    <span class="other-data">PG</span>
+                    <span class="other-data">26</span>
+                    <span class="other-data">68</span>
+                    <span class="other-data">68</span>
+                    <span class="other-data">49.1</span>
+                    <span class="other-data">41.6</span>
+                    <span class="other-data">82.9</span>
+                    <span class="other-data">24.0</span>
+                    <span class="other-data">3.5</span>
+                    <span class="other-data">6.2</span>
+                    <span class="other-data">0.9</span>
+                    <span class="other-data">0.2</span>
+                    <span class="other-data">2.1</span>
+                </article>
+                <article id="RB">
+                    <span class="name">R. Barrett</span>
+                    <span class="other-data">SG</span>
+                    <span class="other-data">22</span>
+                    <span class="other-data">73</span>
+                    <span class="other-data">73</span>
+                    <span class="other-data">43.4</span>
+                    <span class="other-data">31.0</span>
+                    <span class="other-data">74.0</span>
+                    <span class="other-data">19.6</span>
+                    <span class="other-data">5.0</span>
+                    <span class="other-data">2.8</span>
+                    <span class="other-data">0.4</span>
+                    <span class="other-data">0.2</span>
+                    <span class="other-data">2.2</span>
+                </article>
+                <article id="JH" class="even">
+                    <span class="name">J. Hart</span>
+                    <span class="other-data">SF</span>
+                    <span class="other-data">27</span>
+                    <span class="other-data">25</span>
+                    <span class="other-data">1</span>
+                    <span class="other-data">58.6</span>
+                    <span class="other-data">51.9</span>
+                    <span class="other-data">78.9</span>
+                    <span class="other-data">10.2</span>
+                    <span class="other-data">7.0</span>
+                    <span class="other-data">3.6</span>
+                    <span class="other-data">1.4</span>
+                    <span class="other-data">0.5</span>
+                    <span class="other-data">1.5</span>
+                </article>
+                <article id="QG">
+                    <span class="name">Q. Grimes</span>
+                    <span class="other-data">SG</span>
+                    <span class="other-data">22</span>
+                    <span class="other-data">71</span>
+                    <span class="other-data">66</span>
+                    <span class="other-data">46.8</span>
+                    <span class="other-data">38.6</span>
+                    <span class="other-data">79.6</span>
+                    <span class="other-data">11.3</span>
+                    <span class="other-data">3.2</span>
+                    <span class="other-data">2.1</span>
+                    <span class="other-data">0.7</span>
+                    <span class="other-data">0.4</span>
+                    <span class="other-data">1.0</span>
+                </article>
+                <article id="IQ" class="even">
+                    <span class="name">I. Quickley</span>
+                    <span class="other-data">PG</span>
+                    <span class="other-data">23</span>
+                    <span class="other-data">81</span>
+                    <span class="other-data">21</span>
+                    <span class="other-data">44.8</span>
+                    <span class="other-data">37.0</span>
+                    <span class="other-data">81.9</span>
+                    <span class="other-data">14.9</span>
+                    <span class="other-data">4.2</span>
+                    <span class="other-data">3.4</span>
+                    <span class="other-data">1.0</span>
+                    <span class="other-data">0.2</span>
+                    <span class="other-data">1.2</span>
+                </article>
+                <article id="MR">
+                    <span class="name">M. Robinson</span>
+                    <span class="other-data">C</span>
+                    <span class="other-data">24</span>
+                    <span class="other-data">59</span>
+                    <span class="other-data">58</span>
+                    <span class="other-data">67.1</span>
+                    <span class="other-data">N/A</span>
+                    <span class="other-data">48.4</span>
+                    <span class="other-data">7.4</span>
+                    <span class="other-data">9.4</span>
+                    <span class="other-data">0.9</span>
+                    <span class="other-data">0.9</span>
+                    <span class="other-data">1.8</span>
+                    <span class="other-data">0.7</span>
+                </article>
+                <article id="CR" class="even">
+                    <span class="name">C. Reddish</span>
+                    <span class="other-data">SF</span>
+                    <span class="other-data">23</span>
+                    <span class="other-data">23</span>
+                    <span class="other-data">20</span>
+                    <span class="other-data">44.9</span>
+                    <span class="other-data">30.4</span>
+                    <span class="other-data">87.9</span>
+                    <span class="other-data">8.4</span>
+                    <span class="other-data">1.6</span>
+                    <span class="other-data">1.0</span>
+                    <span class="other-data">0.8</span>
+                    <span class="other-data">0.4</span>
+                    <span class="other-data">0.8</span>
+                </article>
+                <article id="IH" class="selected">
+                    <span class="name">I. Hartenstein</span>
+                    <span class="other-data">C</span>
+                    <span class="other-data">24</span>
+                    <span class="other-data">82</span>
+                    <span class="other-data">8</span>
+                    <span class="other-data">53.5</span>
+                    <span class="other-data">21.6</span>
+                    <span class="other-data">67.6</span>
+                    <span class="other-data">5.0</span>
+                    <span class="other-data">6.5</span>
+                    <span class="other-data">1.2</span>
+                    <span class="other-data">0.6</span>
+                    <span class="other-data">0.8</span>
+                    <span class="other-data">0.8</span>
+                </article>
+                <article id="EF" class="even">
+                    <span class="name">E. Fournier</span>
+                    <span class="other-data">SG</span>
+                    <span class="other-data">30</span>
+                    <span class="other-data">27</span>
+                    <span class="other-data">7</span>
+                    <span class="other-data">33.7</span>
+                    <span class="other-data">30.7</span>
+                    <span class="other-data">85.7</span>
+                    <span class="other-data">6.1</span>
+                    <span class="other-data">1.8</span>
+                    <span class="other-data">1.3</span>
+                    <span class="other-data">0.6</span>
+                    <span class="other-data">0.1</span>
+                    <span class="other-data">0.8</span>
+                </article>
+                <article id="OT">
+                    <span class="name">O. Toppin</span>
+                    <span class="other-data">PF</span>
+                    <span class="other-data">24</span>
+                    <span class="other-data">67</span>
+                    <span class="other-data">5</span>
+                    <span class="other-data">44.6</span>
+                    <span class="other-data">34.4</span>
+                    <span class="other-data">80.9</span>
+                    <span class="other-data">7.4</span>
+                    <span class="other-data">2.8</span>
+                    <span class="other-data">1.0</span>
+                    <span class="other-data">0.3</span>
+                    <span class="other-data">0.2</span>
+                    <span class="other-data">0.6</span>
+                </article>
+                <article id="JS" class="even">
+                    <span class="name">J. Sims</span>
+                    <span class="other-data">C</span>
+                    <span class="other-data">24</span>
+                    <span class="other-data">52</span>
+                    <span class="other-data">16</span>
+                    <span class="other-data">77.6</span>
+                    <span class="other-data">0.0</span>
+                    <span class="other-data">75.0</span>
+                    <span class="other-data">3.4</span>
+                    <span class="other-data">4.7</span>
+                    <span class="other-data">0.5</span>
+                    <span class="other-data">0.3</span>
+                    <span class="other-data">0.5</span>
+                    <span class="other-data">0.5</span>
+                </article>
+                <article id="DR">
+                    <span class="name">D. Rose</span>
+                    <span class="other-data">PG</span>
+                    <span class="other-data">34</span>
+                    <span class="other-data">27</span>
+                    <span class="other-data">0</span>
+                    <span class="other-data">38.4</span>
+                    <span class="other-data">30.2</span>
+                    <span class="other-data">91.7</span>
+                    <span class="other-data">5.6</span>
+                    <span class="other-data">1.5</span>
+                    <span class="other-data">1.7</span>
+                    <span class="other-data">0.3</span>
+                    <span class="other-data">0.2</span>
+                    <span class="other-data">0.8</span>
+                </article>
+                <article id="MM" class="even">
+                    <span class="name">M. McBride</span>
+                    <span class="other-data">PG</span>
+                    <span class="other-data">22</span>
+                    <span class="other-data">64</span>
+                    <span class="other-data">2</span>
+                    <span class="other-data">35.8</span>
+                    <span class="other-data">29.9</span>
+                    <span class="other-data">66.7</span>
+                    <span class="other-data">3.5</span>
+                    <span class="other-data">0.8</span>
+                    <span class="other-data">1.1</span>
+                    <span class="other-data">0.6</span>
+                    <span class="other-data">0.1</span>
+                    <span class="other-data">0.4</span>
+                </article>
+            </section>
+        </section>
+
+        <footer>
+            <span>Made by <a href="../portfolioTwo/index.html">Charles Ogunsuyi</a></span>
+        </footer>
+        
+        <script src="js/main.js"></script>
+    </body>
+
+
+</html>
